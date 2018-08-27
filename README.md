@@ -9,47 +9,48 @@ A: Props are readonly and passed in from parent to child component;
     state is an internal object for a particular react component and can change, 
     as it determines the state of the component. It is not visible to other components.
 
-<strong What are props in React?/>
-A: props are properties that are passed into a child component from its parent, and are readonly.
-
-What's the difference between component props and state?
-
-A: Props are readonly and passed in from parent to child component; state is an internal object for a particular react component and can change, as it determines the state of the component. It is not visible to other components.
-
-What is a pure component?
-
+<strong>What is a pure component? </strong>
 A: A pure (functional) component in React is stateless (aka a dumb component) and always renders the same given the same set of input props.
 
+<strong>
 How do we pass a property from a parent component props to a child component?
-
+</strong>
 A: For example: <ChildComponent someProp={props.someProperty} />
 
+<strong>
 What is JSX?
-
+</strong>
 A: JavaScript with extensions. Useful for creating React elements with the full power of JavaScript. Not required for a React app, but typically it's used.
 
+<strong>
 What are some lifecycle methods in a React component?
-
+</strong>
 A: componentDidMount, componentWillMount, componentWillUpdate, componentDidUpdate, shouldComponentUpdate, componentWilReceiveProps.
 
+<strong>
 What's the difference between a 'smart' component and a 'dumb' component?
+</strong>
+A: Smart components manage their state or in a Redux environment are connected to the Redux store. 
+Dumb components are driven completely by their props passed in from their parent and maintain no state of their own.
 
-A: Smart components manage their state or in a Redux environment are connected to the Redux store. Dumb components are driven completely by their props passed in from their parent and maintain no state of their own.
-
+<strong>
 What would be a good lifecycle method to make a remote call to fetch data for a component?
-
+</strong>
 A: componentDidMount
 
+<strong>
 What does it mean for a component to be mounted in React?
-
+</strong>
 A: It has a corresponding element created in the DOM and is connected to that.
 
+<strong>
 What's a pure functional component in React?
-
+</strong>
 A: A component that has no internal state of its own, nor any side effects, and thus is often written as a function as opposed to an ES6 class.
 
+<strong>
 What are some recent changes in the React library (e.g. in version 14, 15)?
-
+</strong>
 A: Splitting out of ReactDOM into react-dom, introduction of refs, improved warnings + error messages...
 
 What is the render method for?
