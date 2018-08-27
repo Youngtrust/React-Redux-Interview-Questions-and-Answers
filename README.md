@@ -9,8 +9,7 @@ A: Props are readonly and passed in from parent to child component;
     state is an internal object for a particular react component and can change, 
     as it determines the state of the component. It is not visible to other components.
 
-What are props in React?
-
+<strong What are props in React?/>
 A: props are properties that are passed into a child component from its parent, and are readonly.
 
 What's the difference between component props and state?
